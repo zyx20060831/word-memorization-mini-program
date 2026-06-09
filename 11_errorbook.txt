@@ -1,0 +1,15 @@
+pen|钢笔
+pencil|铅笔
+bag|包
+English book|英语书
+math book|数学书
+magazine|杂志
+foot|脚
+head|头
+abandon|抛弃，舍弃，放弃
+ability|能力；才能
+able|能够；有能力的
+abolish|废除，废止
+abortion|人工流产，堕胎
+absence|不在，缺席
+stomach|胃，胃部

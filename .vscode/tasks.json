@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build easyx",
+      "type": "shell",
+      "command": "D:/mingw/mingw64/bin/g++.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "-finput-charset=UTF-8",
+        "-fexec-charset=UTF-8",
+        "-ID:/mingw/mingw64/include",
+        "-LD:/mingw/mingw64/lib64",
+        "-Wno-unknown-pragmas",
+        "-leasyx",
+        "-lgdi32",
+        "-lole32",
+        "-lwinmm",
+        "-lmsimg32",
+        "-limm32",
+        "-luuid",
+        "-loleaut32"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
+

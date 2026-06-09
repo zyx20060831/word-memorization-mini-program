@@ -1,0 +1,59 @@
+{
+  "C_Cpp_Runner.cCompilerPath": "D:/mingw/mingw64/bin/gcc.exe",
+  "C_Cpp_Runner.cppCompilerPath": "D:/mingw/mingw64/bin/g++.exe",
+  "C_Cpp_Runner.debuggerPath": "D:/mingw/mingw64/bin/gdb.exe",
+  "C_Cpp_Runner.cStandard": "c17",
+  "C_Cpp_Runner.cppStandard": "c++17",
+  "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat",
+  "C_Cpp_Runner.useMsvc": false,
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wshadow",
+    "-Wformat=2",
+    "-Wcast-align",
+    "-Wconversion",
+    "-Wsign-conversion",
+    "-Wnull-dereference"
+  ],
+  "C_Cpp_Runner.msvcWarnings": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.compilerArgs": [
+    "-Wno-unknown-pragmas",
+    "-ID:/mingw/mingw64/include"
+  ],
+  "C_Cpp_Runner.linkerArgs": [
+    "-LD:/mingw/mingw64/lib64",
+    "-leasyx",
+    "-lgdi32",
+    "-lole32",
+    "-lwinmm",
+    "-lmsimg32",
+    "-limm32",
+    "-luuid",
+    "-loleaut32"
+  ],
+  "C_Cpp_Runner.includePaths": [
+    "D:/mingw/mingw64/include"
+  ],
+  "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+  ],
+  "C_Cpp_Runner.excludeSearch": [
+    "**/build",
+    "**/build/**",
+    "**/.*",
+    "**/.*/**",
+    "**/.vscode",
+    "**/.vscode/**"
+  ],
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "C_Cpp_Runner.useUndefinedSanitizer": false,
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "C_Cpp_Runner.showCompilationTime": false,
+  "C_Cpp_Runner.useLinkTimeOptimization": false,
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
+}
